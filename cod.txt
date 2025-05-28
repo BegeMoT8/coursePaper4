@@ -1,0 +1,14 @@
+syms u1 u2 pX pY
+a1 = 3.23;
+a2 = 0.67;
+num1 = a1 + a2 + a1*u2^2 - 2*a2*u1^2 - a1*u1^4 + a2*u2^2 + a2*u1^4 - 2*a2*u1^2*u2^2 - a1*u1^2*u2^2 + a2*u1^4*u2^2 - 4*a2*u1*u2 - 4*a2*u1^3*u2;
+num2 = 2*(a1*u1^3 - a2*u1^3 + a1*u1 + a2*u1 + a2*u2 + a1*u1^2*u2^2 - a2*u1^2*u2^2 + a1*u1*u2^2 + a2*u1*u2^2 - a2*u1^3*u2);
+denom = (u1^2+1)^2*(u2^2+1);
+p1 = expand(num1 - pX*denom);
+p2 = expand(num2 - pY*denom);
+p1_sub = subs(p1, {a1,a2}, {3.23, 0.67});
+p2_sub = subs(p2, {a1,a2}, {3.23, 0.67});
+G = gbasis([p1,p2], [u1, u2, pX, pY])
+disp(char(p1_sub));
+disp(char(p2_sub));
+sol = solve(G, [u1, u2, pX, pY]);

@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36" version="27.1.0">
+  <diagram name="Страница — 1" id="tgdZ0jDzGLAJKJqQFja4">
+    <mxGraphModel dx="1042" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="bnz2zhWz7Ksf8ZGSEhiq-45" target="bnz2zhWz7Ksf8ZGSEhiq-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bnz2zhWz7Ksf8ZGSEhiq-7" target="bnz2zhWz7Ksf8ZGSEhiq-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-7" value="координата j точки манипулятора совпадает с pickPoint[m][n]" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="480" width="195" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bnz2zhWz7Ksf8ZGSEhiq-9" target="bnz2zhWz7Ksf8ZGSEhiq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-9" value="номер координаты точки PickPoint - n" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-12" value="да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="490" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-13" value="нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="490" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bnz2zhWz7Ksf8ZGSEhiq-16" target="bnz2zhWz7Ksf8ZGSEhiq-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-16" value="номер точки PickPoint - m" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bnz2zhWz7Ksf8ZGSEhiq-24" target="bnz2zhWz7Ksf8ZGSEhiq-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-24" value="Точка нахождения манипулятора&amp;nbsp;&lt;div&gt;номер координаты точки - j (xyz)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-27" value="gripper on/off" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="317.5" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.233;exitY=1.083;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bnz2zhWz7Ksf8ZGSEhiq-12" target="bnz2zhWz7Ksf8ZGSEhiq-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439" y="522" as="sourcePoint" />
+            <mxPoint x="340" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="455" y="523" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bnz2zhWz7Ksf8ZGSEhiq-33" target="bnz2zhWz7Ksf8ZGSEhiq-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-33" value="n == 3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="568" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bnz2zhWz7Ksf8ZGSEhiq-33" target="bnz2zhWz7Ksf8ZGSEhiq-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="650" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="540" y="608" />
+              <mxPoint x="540" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-35" value="нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="580" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-36" value="да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="618" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bnz2zhWz7Ksf8ZGSEhiq-38" target="bnz2zhWz7Ksf8ZGSEhiq-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-38" value="координаты совпадают&lt;div&gt;InZone = true&lt;/div&gt;&lt;div&gt;выход из поиска точек&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="660" width="152.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-40" value="в зоне InZone == true &amp;amp; только появился в зоне&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255.25" y="760" width="212" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bnz2zhWz7Ksf8ZGSEhiq-45" target="bnz2zhWz7Ksf8ZGSEhiq-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-45" value="m == 5" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-47" value="нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="448" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-48" value="да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="548" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bnz2zhWz7Ksf8ZGSEhiq-49" value="манипулятор находится не в зоне точки pickPoint&lt;div&gt;wasInZone = false&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
